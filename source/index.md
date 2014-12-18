@@ -2,12 +2,13 @@
 title: API Reference
 
 language_tabs:
+  - cUrl
   - shell
   - ruby
   - python
 
 toc_footers:
-  - <a href='#'>Sign Up for a Developer Key</a>
+  - <a href='#'>Your Mom.  Sign Up for a Developer Key</a>
   - <a href='http://github.com/tripit/slate'>Documentation Powered by Slate</a>
 
 includes:
@@ -18,11 +19,46 @@ search: true
 
 # Introduction
 
-Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.
+The eBay Enterprise Commerce Technologies Public APIs are our retail interfaces that are used to access the resources and functionality of the eBay Enterprise Commerce Platform and Integrated Business User Tools.
 
-We have language bindings in Shell, Ruby, and Python! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.
+The Consumer Interaction API provides access to the following resources:
 
-This example API documentation page was created with [Slate](http://github.com/tripit/slate). Feel free to edit it and use it as a base for your own API's documentation.
+* Categories
+* Products
+* Promotions
+* Carts (Checkout)
+* Orders
+* Tokens
+* Accounts
+
+The Consumer Interaction API uses HTTP verbs and a RESTful endpoint structure. Access tokens are used for consumer-level authentication and authorization. Request and response payloads are optimized for JSON format.
+This document describes the API endpoints and request/response payloads that can be used to integrate external consumer interaction applications with the Commerce Platform.
+
+We have language bindings in cUrl, Shell, Ruby, and Python. You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.
+
+<aside class="notice">
+You must replace `meowmeowmeow` with your personal API key.
+</aside>
+
+# REST Convention
+All service integrations are accomplished via REST calls from client applications to the Consumer Interaction API. Acknowledgements and error handling are supported and documented within each of the underlying service specifications.
+The design of the Consumer Interaction API provides:
+
+* Access to e-commerce functions in a simple, easy to understand interface.
+* Secure calls with no sensitive or secret information exposed in HTTP access logs.
+* Industry standard URI structures to enable detailed analytics capability for eBay Enterprise and client reporting.
+
+In order to achieve these capabilities, the eBay Enterprise Consumer Interaction specification employs a RESTful URI structure, using standard HTTP methods (GET, PUT, POST, DELETE). This provides for consistent, standards-based interactions with client applications while maintaining the needed security and functionality that enterprise customers demand.
+
+
+
+
+
+
+
+
+
+
 
 # Authentication
 
